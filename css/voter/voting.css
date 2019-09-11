@@ -1,0 +1,60 @@
+.container{
+    margin-left:200px;
+    margin-top:50px;
+}
+.radio-cont{
+    display:inline-block;
+    margin-bottom:20px;
+    border:1px solid black;
+    margin-left:10px;
+    width:250px;
+    border-radius:15px;
+    
+}
+
+.radio-cont:hover{
+    border:1px solid white;
+    box-shadow: 0 0 10px 3px #5491e0;
+    cursor: pointer;
+}
+.cand-label{
+    
+    width:50px;
+    xborder:1px solid black;
+    xmargin:30px;
+    text-align: center;
+    margin-left:70px;
+
+}
+
+.pos-name{
+    font-size:14pt;
+    color:#666;
+    font-weight:bold;
+    border-bottom:1px solid #444;
+    
+}
+
+img{
+    
+    position: inherit;
+    margin:5px;
+    width: 100px;
+}
+
+
+input[type=radio]{
+    
+}
+
+input[type=radio]:checked + label{
+    background:black;
+    cursor: pointer;
+}
+input[type="radio"]:checked + label{
+    background:black;
+ 
+}
+input[type=submit]:disabled{
+    cursor:not-allowed;
+}

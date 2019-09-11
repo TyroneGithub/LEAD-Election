@@ -1,0 +1,36 @@
+body{
+    background:#3f72b8 !important;
+}
+h2{
+    color:white;
+    text-align:center;
+    margin-bottom:30px;
+    margin-top:15px;
+}
+.carousel-inner img{
+    width:150px;
+}
+.item-cont p{
+    text-align:center;
+    color:white;
+    
+}
+.item-cont{
+    display:block;
+    width:17%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    margin-bottom:40px;
+    
+}
+.cont-img{
+    margin-left:15px;
+    display:inline-block;
+}
+.res{
+    height:300px;
+}
+.res h2{
+    margin-top:5%;
+}

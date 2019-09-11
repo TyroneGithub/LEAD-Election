@@ -1,0 +1,75 @@
+body{
+    font-family:Roboto, sans-serif;
+   
+}
+.sidebar {
+    margin-top:60px;
+    z-index:1;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1B2836;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.sidebar .user {
+    padding: 6px 8px 25px 16px ; 
+    text-decoration: none ;
+    font-size: 12pt ;
+    color: #f1f1f1 ;
+    display: block ;
+}
+.user p {
+    margin-bottom:2px ;
+    opacity:0.7 ;
+}
+#logo h2{
+    padding: 1px 10px 4px 16px ;
+    text-decoration: none ;
+    font-size: 16pt ;
+    color: #f1f1f1 ;
+    display: block ;
+}
+  .sidebar a {
+    padding: 12px 10px 15px 16px ;
+    text-decoration: none ;
+    font-size: 12pt ;
+    color: #f1f1f1 ;
+    display: block ;
+  }
+  
+  .sidebar a:hover {
+    background-color: #579FFF;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+ 
+  }
+.collapsible{
+  padding: 12px 105px 15px 16px ;
+  text-decoration: none ;
+  font-size: 12pt ;
+  color: #f1f1f1 ;
+  display: block ;
+  background:none;
+  border:none;
+  width:100%;
+  cursor:pointer;
+  outline: none;
+}
+.collapsible:hover{
+  background-color: #579FFF;
+}
+.content{
+  display:none;
+  overflow:hidden;
+  background-color:none;
+}
+.content a{
+  font-size:10pt;
+  padding-left:35px;
+}

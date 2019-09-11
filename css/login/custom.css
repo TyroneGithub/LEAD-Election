@@ -1,0 +1,21 @@
+h2{
+    margin-top:10px;
+    font-weight: bold;
+    color:white;
+}
+body{
+    background:black !important;
+}
+#logo-lsqc{
+    position: absolute;
+    margin-top:-185px;
+    margin-left:-100px;
+    width:100px;
+    height:100px;
+}
+#creator{
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}

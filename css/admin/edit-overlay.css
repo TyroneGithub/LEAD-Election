@@ -1,0 +1,127 @@
+/*status*/
+#status-box{
+    background:white;
+   
+    z-index:2;
+    width:700px;
+    height:300px;
+    margin:0 auto; margin-top:5%;
+}
+#status-box h2{
+    xbackground:black;
+    xfont-size:20pt;
+    padding-top:-5px;
+    height:100%;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:700px;
+    color:#444;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#status-overlay{
+    display:none;
+  position: fixed; /* Sit on top of the page content */
+  cdisplay: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.75); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  xcursor: pointer; /* Add a pointer on hover */
+}
+
+#status-box img{
+    xbackground:url("images/check.png") no-repeat center;
+    margin-top:50px;
+    width:70px;
+    height:auto;
+}
+
+#status-box button{
+    background-color:#3f73b8;
+    color:white;
+    border:none;
+    border-radius:3px;
+    padding:15px;
+    font-size:12pt;
+    margin-right:15px;
+    margin-top:-75px;
+    width:100px;
+    float:right;
+    opacity:0.9;
+    cursor:pointer;
+    margin-top:-95px;
+}
+#status-box button:hover{
+    opacity:1;
+}
+
+/* change pass box  */
+
+/*status*/
+#change-box{
+    background:white;
+   
+    z-index:2;
+    width:700px;
+    height:300px;
+    margin:0 auto; margin-top:5%;
+}
+#change-box h2{
+    xbackground:black;
+    xfont-size:20pt;
+    padding-top:-5px;
+    height:100%;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:700px;
+    color:#444;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#change-overlay{
+    display:none;
+  position: fixed; /* Sit on top of the page content */
+  cdisplay: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.75); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  xcursor: pointer; /* Add a pointer on hover */
+}
+
+#change-box img{
+    xbackground:url("images/check.png") no-repeat center;
+    margin-top:50px;
+    width:70px;
+    height:auto;
+}
+
+#change-box button{
+    background-color:#3f73b8;
+    color:white;
+    border:none;
+    border-radius:3px;
+    padding:15px;
+    font-size:12pt;
+    margin-right:15px;
+    margin-top:-75px;
+    width:100px;
+    float:right;
+    opacity:0.9;
+    cursor:pointer;
+    margin-top:-95px;
+}
+#status-box button:hover{
+    opacity:1;
+}

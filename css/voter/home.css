@@ -1,0 +1,40 @@
+body{
+    margin-left:200px;
+}
+.image {
+    background:#D0D0D0;
+    width:200px;
+    height:200px;
+    margin-top:10px;
+    margin-left:30%;
+    border-radius: 50%;
+   
+}
+ img{
+    width:150px;
+    margin-left:25px;
+    margin-top:20px;
+    xheight:140px;
+}
+#card{
+    margin-left:250px;
+    margin-top:100px;
+    width:500px;
+    height:300px;
+    border:2px solid #A9A9A9;
+    border-radius:15px;
+}
+#card:hover{
+    border:1px solid white;
+    box-shadow: 0 0 10px 3px #5491e0;
+}
+#card h2{
+    color:#444;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:not([href]){
+    cursor: not-allowed;
+}
